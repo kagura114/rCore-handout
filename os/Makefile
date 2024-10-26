@@ -1,3 +1,6 @@
+# PATH
+export PATH := $(HOME)/.cargo/bin:$(PATH)
+
 # Building
 TARGET := riscv64gc-unknown-none-elf
 MODE := release
